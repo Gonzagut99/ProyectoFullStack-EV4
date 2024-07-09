@@ -1,0 +1,45 @@
+# Reglas específicas para frontend-aa4
+# Ver https://docs.github.com/get-started/getting-started-with-git/ignoring-files para más información sobre cómo ignorar archivos.
+
+# Salida compilada
+/frontend-aa4/dist
+/frontend-aa4/tmp
+/frontend-aa4/out-tsc
+/frontend-aa4/bazel-out
+
+# Node
+/frontend-aa4/node_modules
+/frontend-aa4/npm-debug.log
+/frontend-aa4/yarn-error.log
+
+# IDEs y editores
+/frontend-aa4/.idea/
+/frontend-aa4/.project
+/frontend-aa4/.classpath
+/frontend-aa4/.c9/
+/frontend-aa4/*.launch
+/frontend-aa4/.settings/
+/frontend-aa4/*.sublime-workspace
+
+# Visual Studio Code
+/frontend-aa4/.vscode/*
+!/frontend-aa4/.vscode/settings.json
+!/frontend-aa4/.vscode/tasks.json
+!/frontend-aa4/.vscode/launch.json
+!/frontend-aa4/.vscode/extensions.json
+/frontend-aa4/.history/*
+
+# Varios
+/frontend-aa4/.angular/cache
+/frontend-aa4/.sass-cache/
+/frontend-aa4/connect.lock
+/frontend-aa4/coverage
+/frontend-aa4/libpeerconnection.log
+/frontend-aa4/testem.log
+/frontend-aa4/typings
+
+# Archivos del sistema
+/frontend-aa4/.DS_Store
+/frontend-aa4/Thumbs.db
+
+#make the same content as above but add a prefix to each line: "frontend-aa4"
